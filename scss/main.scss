@@ -1,14 +1,5 @@
 // import
-@import "variables";
-@import "header";
-@import "body";
-
-
-            
-            @media(min-width: 768px){
-                .main { display: grid; 
-                grid-template-columns: 1fr;}
-            }
-            @media(min-width: 992px){
-                .main{ display: grid; grid-template-columns:5fr 5fr; justify-items: center;}
-            }
+@import "/scss/utilitie/variables";
+@import "/scss/layout/header";
+@import "/scss/layout/grid";
+@import "/scss/layout/footer";

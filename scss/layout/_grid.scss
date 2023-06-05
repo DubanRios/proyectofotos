@@ -1,6 +1,8 @@
 *{margin: 0; padding: 0; box-sizing: border-box;}
 a{text-decoration: none; font-size: 25px;}
-h2{display: flex; justify-content: center; padding: 30px;}
+h2{display: flex; 
+    justify-content: center; 
+    padding: 30px;}
 h3{display: flex; justify-content: center; 
 .tips{text-align: center;
 padding: 20px; margin: 20px;
@@ -37,7 +39,18 @@ body {font-family:'Times New Roman', Times, serif;
                 opacity: 4; height: 515px; width: 425px;
             } }
 
-            .apps{  padding: 0.5rem; display: flex; flex-direction: row; flex-wrap: wrap; justify-content: space-around; margin: 50px; padding: 50px;display: grid; justify-content: center; text-align: center; opacity: .15; transition: 0s;
+            .apps{  padding: 0.5rem; 
+                display: flex; 
+                flex-direction: row; 
+                flex-wrap: wrap; 
+                justify-content: space-around; 
+                margin: 50px; 
+                padding: 50px;
+                display: grid; 
+                justify-content: center; 
+                text-align: center;
+                opacity: .15; 
+                transition: 0s;
 
             }
             .apps:hover {

@@ -3,6 +3,20 @@ header {
   background-color: black;
 }
 
+.insta {
+  width: 48px;
+  height: 48px;
+  transition: none;
+  opacity: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.insta:hover {
+  height: 58px;
+  width: 58px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -14,8 +28,29 @@ a {
   font-size: 25px;
 }
 
+h2 {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+h3 {
+  display: flex;
+  justify-content: center;
+}
+h3 .tips {
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
+}
+
+p {
+  padding: 30px;
+  text-align: center;
+}
 p .contacto {
   color: white;
+  padding: 30px;
 }
 
 body {
@@ -24,12 +59,12 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-size: 20px;
-  background-color: black;
-  background-image: url(../img/simbolo.jpg);
+  background-color: white;
+  background-image: url(/img/andressierralogoblanco.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
-  color: white;
+  color: black;
 }
 body .imginicio {
   display: flex;
@@ -58,27 +93,31 @@ body img {
   height: 500px;
   margin: 18px;
   opacity: 0.4;
+  transition: all 3s;
 }
 body img:hover {
   opacity: 4;
-}
-body footer {
-  background-color: black;
-  text-align: center;
+  height: 515px;
+  width: 425px;
 }
 
-.bootstrap {
-  list-style-type: none;
-  margin: px;
-  padding: 0px;
-  box-sizing: border-box;
-  font-family: "Times New Roman", Times, serif;
-  font-size: 25px;
-  background-color: black;
-  color: white;
+.apps {
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 50px;
+  padding: 50px;
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  opacity: 0.15;
+  transition: 0s;
 }
-.bootstrap a {
-  text-decoration: none;
+
+.apps:hover {
+  opacity: 4;
 }
 
 @media (min-width: 768px) {
@@ -93,6 +132,47 @@ body footer {
     grid-template-columns: 5fr 5fr;
     justify-items: center;
   }
+}
+footer {
+  background-color: black;
+  text-align: center;
+}
+
+.insta {
+  width: 48px;
+  height: 48px;
+  transition: none;
+  opacity: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.insta:hover {
+  height: 58px;
+  width: 58px;
+}
+
+.bootstrap {
+  list-style-type: none;
+  margin: px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
+  color: black;
+}
+.bootstrap a {
+  text-decoration: none;
+}
+.bootstrap footer {
+  background-color: black;
+}
+.bootstrap header {
+  background-color: black;
+}
+.bootstrap body {
+  background-color: black;
 }
 
 /*# sourceMappingURL=main.css.map */

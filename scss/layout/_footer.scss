@@ -1,1 +1,9 @@
 footer{background-color: $color-primary; text-align: center;}
+.insta{width: 48px;
+    height: 48px;
+    transition: none;
+    opacity: none;
+    display: flex; justify-content: flex-end;align-items: flex-end;
+    }
+    
+    .insta:hover { height: 58px; width: 58px;;} 

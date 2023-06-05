@@ -1,15 +1,22 @@
 *{margin: 0; padding: 0; box-sizing: border-box;}
 a{text-decoration: none; font-size: 25px;}
-p{.contacto{ color:$color-secundary;}}
+h2{display: flex; justify-content: center; padding: 30px;}
+h3{display: flex; justify-content: center; 
+.tips{text-align: center;
+padding: 20px; margin: 20px;
+
+}}
+p{.contacto{ color:$color-secundary; padding: 30px;} padding: 30px; text-align: center;
+}
 body {font-family:'Times New Roman', Times, serif;
     margin: 0; padding: 0; box-sizing: border-box;
     font-size: 20px;
-    background-color:$color-primary;
-    background-image: url(../img/simbolo.jpg);
+    background-color:$color-secundary;
+    background-image: url(/img/andressierralogoblanco.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed; 
-    color:$color-secundary;
+    color:$color-primary;
     .imginicio{display: flex;justify-content: center;}
     
     
@@ -24,10 +31,19 @@ body {font-family:'Times New Roman', Times, serif;
             height: 500px;
             margin: 18px;
             opacity: .4;
+            transition:  all 3s
             }
             img:hover{
-                opacity: 4;
+                opacity: 4; height: 515px; width: 425px;
             } }
+
+            .apps{  padding: 0.5rem; display: flex; flex-direction: row; flex-wrap: wrap; justify-content: space-around; margin: 50px; padding: 50px;display: grid; justify-content: center; text-align: center; opacity: .15; transition: 0s;
+
+            }
+            .apps:hover {
+                opacity: 4;
+            }
+
 
             @media(min-width: 768px){
                 .main { display: grid; 

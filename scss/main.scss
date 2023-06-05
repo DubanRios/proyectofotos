@@ -1,5 +1,6 @@
 // import
-@import "/scss/utilitie/variables";
-@import "/scss/layout/header";
-@import "/scss/layout/grid";
-@import "/scss/layout/footer";
+@import "./utilities/variables";
+@import "./layout/header";
+@import "./layout/grid";
+@import "./layout/footer";
+@import "./vendors/boostrap"
